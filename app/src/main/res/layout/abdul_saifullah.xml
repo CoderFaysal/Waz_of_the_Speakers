@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbdulSaifullah"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+
+    <!-- Live View Video -->
+
+    <WebView
+        android:id="@+id/videoTVdisplay3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/demoImg3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/abdulsaifullahcover"
+        android:scaleType="centerCrop"
+        />
+
+
+    <!-- Main Video Button -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+
+            <!--- Saifullah Video One-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_one"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz01"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="স্বাধীনতা ও বিজয়ে আমাদের করনীয়?| Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="What should we do for freedom and victory?"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video One-->
+
+
+            <!--- Saifullah Video Two-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_two"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz02"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আমানত এবং ওয়াদা, কত সুন্দর বক্তব্য | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn Islam and change your life"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Two-->
+
+
+
+            <!--- Saifullah Video Third-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_third"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz03"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সূরা হুজরাতের সামাজিক শিক্ষা | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মানুষের জন্য মানুষের অধিকার"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Three-->
+
+
+
+            <!--- Saifullah Video Fourth-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_forth"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz04"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ইসলামে নারীর মর্যাদা | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The dignity of women in Islam"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Fourth-->
+
+
+
+            <!--- Saifullah Video Five-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_five"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz05"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="জিলহজ্ব মাসের দশ দিনের ফযীলত | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The virtue of the ten days of the month of Jilhaj"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Five-->
+
+
+
+            <!--- Saifullah Video Six-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_six"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz06"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সূরা কাহাফের নয়টি অনন্য শিক্ষা| Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nine unique teachings of Surah Al-Kahf"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Six-->
+
+
+
+            <!--- Saifullah Video Seven-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_seven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz07"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="হালাল উপার্জন, হারাম বর্জন | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Halal earning, Haram elimination"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Seven-->
+
+
+            <!--- Saifullah Video Eight-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz08"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বিশ্বময় দ্বীনের দাওয়াত | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invitation to Islam religion"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Eight-->
+
+
+            <!--- Saifullah Video Nine-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_nine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz09"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তাহাজ্জুদ শুরু থেকে শেষ | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tahajjud from beginning to end"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Nine-->
+
+
+            <!--- Saifullah Video Ten-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_ten"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="দুই শ্রেনীর মানুষের কিয়ামতে চেহারা | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সূরা গশিয়া বর্ণনা"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Ten-->
+
+
+            <!--- Saifullah Video eleven-->
+            <LinearLayout
+                android:id="@+id/saifullah_v_eleven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saifullah_waz11"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="একটি হতাশা মুক্ত গাধার গল্প | Abdul Hi M. Saifullah"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="হতাশ আর ভালো নাগলে এই কাজগুলি করুন"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Saifullah Video Eleven-->
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

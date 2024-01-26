@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JamshedMajumdar"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+    <!-- Live View Video -->
+
+    <WebView
+        android:id="@+id/videoTVdispla8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/demoImg8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/jamshedmajumdarcover"
+        android:scaleType="centerCrop"
+        />
+
+
+    <!-- Main Video Button -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!--- Jamshed Majumdar Video Eight-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz08"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রমজানের প্রস্তুতি নিয়ে আলোচনা Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Preparation for Ramadan"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Eight-->
+
+
+            <!--- Jamshed Majumdar Video Seven-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_seven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz07"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="জুম'আর খুৎবা | সালাতের গুরুত্ব | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumma's khutba | The importance of prayer"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Seven-->
+
+
+            <!--- Jamshed Majumdar Video Six-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_six"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz06"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সময়ের সেরা ওয়াজ | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This times best waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Six-->
+
+
+            <!--- Jamshed Majumdar Video Five-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_five"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz05"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সম্পূর্ণ ওয়াজ মাহফিল 2022 | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Waz 2022"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Five-->
+
+
+            <!--- Jamshed Majumdar Video Four-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_four"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz04"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যুবক তোমার জন্য | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For young people"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Four-->
+
+
+            <!--- Jamshed Majumdar Video Three-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_three"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz03"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ফেসবুকের দ্বীনী বোন | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Religious sister of Facebook"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Three-->
+
+
+            <!--- Jamshed Majumdar Video Two-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_two"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz02"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আপনি কি পরিপূর্ণ মুসলিম ? Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:maxLines="2"
+                        android:textColor="#000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Are you a perfect Muslim?"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video Two-->
+
+
+            <!--- Jamshed Majumdar Video One-->
+            <LinearLayout
+                android:id="@+id/jamshed_v_one"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jamshed_waz01"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শরীরের লোম দাড়িয়ে যাবে | Jamshed Majumdar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Body hair will stand up"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Jamshed Majumdar Video One-->
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpalshScreen"
+    android:orientation="vertical"
+    android:background="@drawable/spalsh_screen"
+    android:padding="40dp"
+    >
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="প্রিয় শায়েখদের ওয়াজ"
+        android:textColor="#05052C"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/moreApp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="আরও অ্যাপস"
+            android:textColor="#05052C"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/appRateUs"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="5 স্টার দিন"
+            android:textColor="#05052C"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/teal_200"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/share"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>

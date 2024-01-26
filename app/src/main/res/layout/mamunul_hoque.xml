@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MamunulHoque"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+
+
+
+    <!-- Live View Video -->
+
+    <WebView
+        android:id="@+id/videoTVdispla6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/demoImg6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/allamamamunulhoquecover"
+        android:scaleType="centerCrop"
+        />
+
+
+    <!-- Main Video Button -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!--- Allama Mamunul Hoque Video Ten-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_ten"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মোহাম্মাদপুর কাপাঁনো ওয়াজ | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best Waz of the Mohammadpur"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Ten-->
+
+
+            <!--- Allama Mamunul Hoque Video Nine-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_nine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz09"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="জান্নাতি ও জাহান্নামী | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Paradise and Hell"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Nine-->
+
+
+            <!--- Allama Mamunul Hoque Video Eight-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz08"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আমার বক্তব্য থামানোর তুমি কে ? Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Who are you to stop my speech?"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Eight-->
+
+
+            <!--- Allama Mamunul Hoque Video Seven-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_seven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz07"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মদ ও জুয়া সমস্ত অশান্তির মূল | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alcohol and gambling are the root of all unrest"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Seven-->
+
+
+            <!--- Allama Mamunul Hoque Video Six-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_six"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz06"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কান্নার ওয়াজ সবাইকে কাদালেন | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Very Heart Touching Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Six-->
+
+
+            <!--- Allama Mamunul Hoque Video Five-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_five"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz05"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="নারায়ণগঞ্জ কাঁপালেন বীর পুরুষ | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Narayanganj Best Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Five-->
+
+
+            <!--- Allama Mamunul Hoque Video Four-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_four"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz04"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="জুনায়েদ সাহেবের মাদ্রাসায় | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the madrasa of Mr. Junaid Al Habib"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Four-->
+
+
+            <!--- Allama Mamunul Hoque Video Three-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_three"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz03"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="চট্রগ্রাম বাবুনগরে ইতিহাস সৃষ্টি | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chittagong New Bangla Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Three-->
+
+
+            <!--- Allama Mamunul Hoque Video Two-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_two"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz02"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যে বয়ান শুনে পুলিশ ভায়েরা মুগ্ধ Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Bangla Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video Two-->
+
+
+            <!--- Allama Mamunul Hoque Video One-->
+            <LinearLayout
+                android:id="@+id/mamunul_v_one"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mamunul_waz01"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Bangla Waz 2019 | Allama Mamunul Haque"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Bangla Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Mamunul Hoque Video One-->
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

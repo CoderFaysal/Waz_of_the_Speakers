@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <!--     Image Slider     -->
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="1000"
+        app:iss_placeholder="@drawable/ic_launcher_foreground"
+        app:iss_error_image="@drawable/ic_launcher_background"
+        app:iss_delay="1"
+        />
+
+    <!--     Image Slider     -->
+
+
+    <!--     Main Part     -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/white"
+            >
+
+
+            <!-- No - 1 -->
+
+            <LinearLayout
+                android:id="@+id/mijan"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/mijanur"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mizanur Rahman Ajhari"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 11  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 08 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 1 -->
+
+
+            <!-- No - 2 -->
+
+            <LinearLayout
+                android:id="@+id/toha"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/abu_toha"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abu Toha Md. Adnan"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 12  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 10 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 2 -->
+
+
+            <!-- No - 3 -->
+
+            <LinearLayout
+                android:id="@+id/asif"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/abrarul_asif"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abrarul Haque Asif"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 08 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 3 -->
+
+
+
+            <!-- No - 4 -->
+
+            <LinearLayout
+                android:id="@+id/saifullah"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/abdul_saifullah"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abdul Hi M. Saifullah"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 11  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 10 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 4 -->
+
+
+
+            <!-- No - 5 -->
+
+            <LinearLayout
+                android:id="@+id/amirhamza"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/amir_hamza"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mufti Amir Hamza"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 10 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 5 -->
+
+
+
+            <!-- No - 6 -->
+
+            <LinearLayout
+                android:id="@+id/ahmadullah"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/ahmadullah"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shaikh Ahmadullah"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 11 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 6 -->
+
+
+
+            <!-- No - 7 -->
+
+            <LinearLayout
+                android:id="@+id/mamunul"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/mamunul"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Allama Mamunul Hoque"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 08 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 7 -->
+
+            <!-- No - 8 -->
+
+            <LinearLayout
+                android:id="@+id/tarek"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/tarek"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Allama Tarek Monowar"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 09 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 8 -->
+
+
+            <!-- No - 9 -->
+
+            <LinearLayout
+                android:id="@+id/jamshed"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/jamshed"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jamshed Majumdar"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 08  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 04 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 9 -->
+
+
+            <!-- No - 10 -->
+
+            <LinearLayout
+                android:id="@+id/sarwar_saide"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/sarwar_saide"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Golam Sarwar Saide"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lectures : 10  |"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration: 05 H."
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - 10 -->
+
+
+            <!-- No - Last -->
+
+            <LinearLayout
+                android:id="@+id/thank_you"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/home_bg"
+                android:weightSum="100"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:src="@drawable/feedback"
+                    android:padding="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thanks For Using App"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Send Your Valuable Feedback"
+                            android:paddingLeft="8dp"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No - Last -->
+
+
+            <!-- All Done ✌ ✌ ✌ -->
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

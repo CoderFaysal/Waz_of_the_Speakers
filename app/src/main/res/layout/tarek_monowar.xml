@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TarekMonowar"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+    <!-- Live View Video -->
+
+    <WebView
+        android:id="@+id/videoTVdispla7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/demoImg7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/allamatarekmonowarcover"
+        android:scaleType="centerCrop"
+        />
+
+
+    <!-- Main Video Button -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <!--- Allama Tarek Monowar Video Ten-->
+            <LinearLayout
+                android:id="@+id/tarek_v_ten"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পিতা মাতার জন্য সেরা ওয়াজ | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best waz for parents"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Ten-->
+
+
+            <!--- Allama Tarek Monowar Video Nine-->
+            <LinearLayout
+                android:id="@+id/tarek_v_nine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz09"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পৃথিবীর সময় শেষ  | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:maxLines="2"
+                        android:textColor="#000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Earth's time is over"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Nine-->
+
+
+            <!--- Allama Tarek Monowar Video Eight-->
+            <LinearLayout
+                android:id="@+id/tarek_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz08"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="স্বামী স্ত্রীর ভালবাসা | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Husband Wife Love "
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Eight-->
+
+
+            <!--- Allama Tarek Monowar Video Seven-->
+            <LinearLayout
+                android:id="@+id/tarek_v_seven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz07"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কবরে প্রথম দিন কেমন হবে ? Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First day in the grave"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Seven-->
+
+
+            <!--- Allama Tarek Monowar Video Six-->
+            <LinearLayout
+                android:id="@+id/tarek_v_six"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz06"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রমজানের সেরা ওয়াজ | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special waz of Ramadan"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Six-->
+
+
+            <!--- Allama Tarek Monowar Video Five-->
+            <LinearLayout
+                android:id="@+id/tarek_v_five"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz05"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রমজানের স্পেশাল ওয়াজ | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special waz of Ramadan"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Five-->
+
+
+            <!--- Allama Tarek Monowar Video Four-->
+            <LinearLayout
+                android:id="@+id/tarek_v_four"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz04"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পৃথিবী ধ্বংস কিভাবে হবে| Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How the earth will be destroyed"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Four-->
+
+
+            <!--- Allama Tarek Monowar Video Three-->
+            <LinearLayout
+                android:id="@+id/tarek_v_three"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz03"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="অতিরিক্ত টেনশন থেকে মুক্তি | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Release from excess tension"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Three-->
+
+
+            <!--- Allama Tarek Monowar Video Two-->
+            <LinearLayout
+                android:id="@+id/tarek_v_two"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz02"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মন জুড়ানো ওয়াজ | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Heart Touching Waz "
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video Two-->
+
+
+            <!--- Allama Tarek Monowar Video One-->
+            <LinearLayout
+                android:id="@+id/tarek_v_one"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tarek_waz01"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Bangla Waz | Tarek Monowar"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Bangla Waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Allama Tarek Monowar Video One-->
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

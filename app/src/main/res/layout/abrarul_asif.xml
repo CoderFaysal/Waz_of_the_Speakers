@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbrarulAsif"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+    <!-- Live View Video -->
+
+    <WebView
+        android:id="@+id/videoTVdisplay2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/demoImg2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/abrarulhaqueasifcover"
+        android:scaleType="centerCrop"
+        />
+
+
+    <!-- Main Video Button -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!--- Asif Video One-->
+            <LinearLayout
+                android:id="@+id/asif_v_one"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz01"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ফিরে এসো রবের পথে | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Come back to the path of the Allah"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video One-->
+
+
+            <!--- Asif Video Two-->
+            <LinearLayout
+                android:id="@+id/asif_v_two"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz02"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কবরে প্রথম দিন আপনার সাথে যা ঘটবে | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whatever happens to you on the first day in the grave"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Two-->
+
+
+
+            <!--- Asif Video Third-->
+            <LinearLayout
+                android:id="@+id/asif_v_third"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz03"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যুবকদের শোনা জরুরী | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It is important to listen to the youth"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Three-->
+
+
+
+            <!--- Asif Video Fourth-->
+            <LinearLayout
+                android:id="@+id/asif_v_forth"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz04"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রাজশাহীতে নতুন ওয়াজ | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Life changing new waz"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Fourth-->
+
+
+
+            <!--- Asif Video Five-->
+            <LinearLayout
+                android:id="@+id/asif_v_five"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz05"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কিয়ামতের দিন কেমন হবে? | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="What will be day resurrection?"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Five-->
+
+
+
+            <!--- Asif Video Six-->
+            <LinearLayout
+                android:id="@+id/asif_v_six"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz06"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="গাজীপুরের সেরা ওয়াজ | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best Waz of the Gazipur"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Six-->
+
+
+
+            <!--- Asif Video Seven-->
+            <LinearLayout
+                android:id="@+id/asif_v_seven"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz07"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মৃত্যুর পরের জীবন | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Life after death"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Seven-->
+
+
+            <!--- Asif Video Eight-->
+            <LinearLayout
+                android:id="@+id/asif_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz08"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="লক্ষ জনতার ঢল | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best Waz of the year"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Eight-->
+
+
+            <!--- Asif Video Nine-->
+            <LinearLayout
+                android:id="@+id/asif_v_nine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz09"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="স্বামীর মন জয় করার ৪টি আমল | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 acts to win the heart of the husband"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Nine-->
+
+
+            <!--- Asif Video Ten-->
+            <LinearLayout
+                android:id="@+id/asif_v_ten"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/video_bg"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asif_waz10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আসুন রমজানের প্রস্ততি নেই | Abrarul Haque Asif"
+                        android:textSize="17sp"
+                        android:textColor="#000"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let's prepare for Ramadan"
+                        android:textSize="14sp"
+                        android:textColor="#535c68"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--- Asif Video Ten-->
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

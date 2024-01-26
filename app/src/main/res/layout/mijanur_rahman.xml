@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MijanurRahman"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+   <!-- Live View Video -->
+
+   <WebView
+       android:id="@+id/videoTVdisplay"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:visibility="gone"
+       />
+
+   <ImageView
+       android:id="@+id/demoImg"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/mizanurrahmanajharicover"
+       android:scaleType="centerCrop"
+      />
+
+
+   <!-- Main Video Button -->
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="8dp"
+      >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+
+
+         <!--- Mijanur Video One-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_one"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz01"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="সুলায়মান আঃ এর জীবনী | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Life of Prophet Sulaiman (Pbuh)"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video One-->
+
+
+
+         <!--- Mijanur Video Two-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_two"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz02"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="দাউদ আঃ এর জীবনী | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Life of Prophet Dawud (Pbuh)"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Two-->
+
+
+
+         <!--- Mijanur Video Third-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_third"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz03"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ইলিয়াস আঃ এর জীবনী | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Life of Prophet Elias (Pbuh)"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Three-->
+
+
+
+         <!--- Mijanur Video Fourth-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_forth"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz04"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="যুল কিফল আঃ এর জীবনী | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Life of Prophet Zulkifli (Pbuh)"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Fourth-->
+
+
+
+         <!--- Mijanur Video Five-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_five"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz05"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="অমুসলিমদের সাথে মুসলিমদের | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Relation to the different Faith"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Five-->
+
+
+
+         <!--- Mijanur Video Six-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_six"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz06"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="দ্বা’য়ী ইলাল্লাহর বৈশিষ্ট্য | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="তাফসিরুল কুরআন মাহফিল"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Five-->
+
+
+
+         <!--- Mijanur Video Seven-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_seven"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz07"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ওয়াজটি শুনলে চোখে পানি চলে আসে | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="অন্তর ঠান্ডা করার ওয়াজ - 2020"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Seven-->
+
+
+         <!--- Mijanur Video Eight-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_eight"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz08"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="রমাজানের সেরা ওয়াজ | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Ramadan new waz - 2020"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Eight-->
+
+
+         <!--- Mijanur Video Nine-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_nine"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz09"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="দোয়া কবুলের গোপন রহস্য | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="The secret of accepting prayers"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Nine-->
+
+
+         <!--- Mijanur Video Ten-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_ten"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz10"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="জীবন পাল্টানো একটি ওয়াজ | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Life Changing Waz"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Ten-->
+
+
+         <!--- Mijanur Video Eleven-->
+         <LinearLayout
+             android:id="@+id/mijanur_v_eleven"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:orientation="horizontal"
+             android:background="@drawable/video_bg"
+             android:padding="15dp"
+             >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mijan_waz11"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="রমজানে ১০টি অভ্যাস ত্যাগ করুন | মিজানুর রহমান আজহারী"
+                   android:textSize="17sp"
+                   android:textColor="#000"
+                   android:maxLines="2"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Give up 10 habits in Ramadan"
+                   android:textSize="14sp"
+                   android:textColor="#535c68"
+                   android:maxLines="1"
+                   />
+
+            </LinearLayout>
+
+         </LinearLayout>
+         <!--- Mijanur Video Eleven-->
+
+
+
+
+
+
+
+
+      </LinearLayout>
+
+   </ScrollView>
+
+
+</LinearLayout>

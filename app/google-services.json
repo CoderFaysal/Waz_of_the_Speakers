@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44614426527",
+    "project_id": "bangal-waz",
+    "storage_bucket": "bangal-waz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44614426527:android:3af034aa77851e758967aa",
+        "android_client_info": {
+          "package_name": "com.coderfaysal.wazofthespeakers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44614426527-0tsprbg5t4rec2te56dupj3auanbasna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGiHELDFc9uUar5b0q10OfHAXP0DBUMBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44614426527-0tsprbg5t4rec2te56dupj3auanbasna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
